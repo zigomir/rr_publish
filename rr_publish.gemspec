@@ -6,10 +6,10 @@ require 'rr_publish/version'
 Gem::Specification.new do |spec|
   spec.name          = 'rr_publish'
   spec.version       = RRPublish::VERSION
-  spec.authors       = ['Winton Welsh', 'Žiga Vidic']
+  spec.authors       = ['Winton Welsh', 'zigomir']
   spec.email         = ['mail@wintoni.us, zigomir@gmail.com']
-  spec.description   = %q{Ruby and Rsync}
-  spec.summary       = %q{Ruby and Rsync}
+  spec.description   = %q{Rysnc your files with simple YAML file.}
+  spec.summary       = %q{Simple Ruby Rsync}
   spec.homepage      = 'http://github.com/zigomir/rr_publish'
   spec.license       = 'MIT'
 
