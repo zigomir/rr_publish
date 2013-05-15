@@ -54,11 +54,7 @@ module RRPublish
       # -z, --compress              compress file data during the transfer
       # -S, --sparse                handle sparse files efficiently
       # -v, --verbose               verbose
-
-      if profile['delete'].nil? || profile['delete']
-        options = "--delete " + options
-        # --delete                  delete extraneous files from dest dirs
-      end
+      # --delete                  delete extraneous files from dest dirs
 
       if destination.include?(':') || source.include?(':')
         options += ' -e ssh'
